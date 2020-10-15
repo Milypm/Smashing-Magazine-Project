@@ -536,3 +536,177 @@ body {
   color: red;
   font-size: 15px;
 }
+
+.upcoming-btn {
+  height:35px;
+  width:220px;
+  border-radius: 6px;
+}
+
+.members-right a, .members-right p {
+  color:white;
+}
+
+.smashing-head {
+  font-size: 40px;
+}
+
+.center-text {
+  color: gray;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom:100px;
+  border-bottom: 4px solid gray;
+  width:220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shipping-now {
+  text-align: center;
+  background-color: gray;
+}
+
+.ship-p1 {
+  font-size: 15px;
+  font-weight: 700;
+  color:white;
+}
+
+.ship-p2 {
+  color:white;
+  font-size: 35px;
+}
+
+.ship-p2 a {
+  color:white;
+}
+
+.ship-p3 {
+  color:white;
+  font-size: 20px;
+}
+
+.content-btn {
+  text-align: center;
+  height:55px;
+  width:320px;
+  border-radius: 8px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: gray;
+  font-weight: 700;
+}
+
+.shipping-now .home-illu {
+  margin-top: 50px;
+  width:900px;
+}
+
+.per-flex {
+  display: flex;
+  margin-top: 80px;
+}
+
+.per-flex a,
+.data a {
+  color:#006fc6;
+}
+
+.per-flex img {
+  width:200px;
+  height:200px;
+  margin-left: 50px;
+  border-radius: 12px;
+}
+
+.per-flex p {
+  margin-left: 50px;
+  color: gray;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: -4px;
+}
+
+.per-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 60px;
+  margin-top: 80px;
+}
+
+.grid-flex {
+  display: flex;
+  padding-left: 50px;
+}
+
+.grid-flex img {
+  height:80px;
+  width:80px;
+}
+
+.grid-flex p {
+  color:gray;
+  line-height: px;
+}
+
+.grid-flex .split {
+  color: black;
+  font-size: 28px;
+font-weight: 700;
+margin-top: -5px;
+}
+
+.grid-flex .split a {
+  text-decoration: none;
+  color:black;
+}
+
+.flex-grid-para {
+  margin-left: 30px;
+  margin-top: -15px ;
+}
+
+.data {
+  margin-top: -20px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.design-flex {
+  display: flex;
+  background-color: gray;
+}
+
+.design-flex .design-para {
+  margin-left: 40px;
+  margin-top: 40px;;
+}
+.design-systems p {
+  color:white;
+}
+
+.design-systems .head {
+  color:white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.design-btn {
+  width:250px;
+  height:50px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;;
+}
+
+.design-flex .design-img img {
+  width:200px;
+  margin-left: 250px;
+  position:relative;
+  margin-top: -40px;
+}
+
