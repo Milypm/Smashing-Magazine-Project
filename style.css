@@ -10,7 +10,10 @@ body {
   display: flex;
   align-items: flex-start;
   text-transform: capitalize;
-  padding: 10px 15px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0;
   background:	#808080;
 }
@@ -30,8 +33,8 @@ body {
 .nav-item {
   display: block;
   list-style: none;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 550;
   color: white;
   cursor: pointer;
 }
@@ -57,16 +60,17 @@ body {
 }
 
 .more-btn {
+  display: flex;
   background: #686868;
   border-radius: 10px;
   padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 5px;
   margin-right: 40px;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 550;
   text-transform: capitalize;
   border: solid 1px gray;
 }
@@ -75,9 +79,15 @@ body {
   background:	#505050;
 }
 
-.more-btn i {
-  font-size: 23px;
-  margin-left: 8px;
+.more-w {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.more-btn img {
+  width: 30px;
+  height: 30px;
+  margin-left: 7px;
 }
 
 .searchArti-form i {
@@ -116,10 +126,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  margin-right: 135px;
+  margin-right: 60px;
   font-size: 35px;
   line-height: 45px;
-  width: 400px;
+  width: 500px;
   position: relative;
 }
 
@@ -154,7 +164,7 @@ body {
 .serious-icon i {
   width: 50px;
   height: 50px;
-  border: solid 1px;
+  border: transparent;
   font-size: 45px;
   margin-top: -3px;
   margin-right: 15px;
@@ -167,35 +177,52 @@ body {
   padding-left: 5px;
 }
 
+.gridI-color-1,
+.gridI-color-4 {
+  background: #949494;
+}
+
+.gridI-color-2 {
+  background: #A6A6A6;
+}
+
+.gridI-color-3 {
+  background: #8C8C8C;
+}
+
 .article-a {
   display: block;
-  height: 60px;
+  width: 90%;
+  height: 80%;
   background-color: white;
 }
 
 .article-b {
   background-color: white;
-  width: 150px;
-  margin-left: 120px;
-  margin-top: -50px;
+  width: 35%;
+  height: 45%;
+  margin-left: 150px;
+  margin-top: -46px;
 }
 
 .grid-container {
-display: grid;
-background-color: gray;
-grid-template-columns: 50% 50%;
-margin-top: -220px;
-margin-bottom: 0;
+  display: grid;
+  background-color: gray;
+  grid-template-columns: 50% 50%;
+  margin-top: -220px;
+  margin-bottom: 0;
 }
 
 .grid-container img {
   height: 80px;
   width: 80px;
   margin-left: 70px;
+  padding: 0;
+  border: solid 5px #fff;
+  border-radius: 10px;
 }
 
-.grid-item {
-  border: 1px solid green; 
+.grid-item { 
   padding-bottom: 50px;
   padding-top: 230px
 }
@@ -227,10 +254,6 @@ margin-bottom: 0;
   height: 30px;
 }
 
-/*.hash-two {
-  padding-top: 20px
-}*/
-
 .hash {
   margin-left: 20px;
 }
@@ -259,7 +282,7 @@ margin-bottom: 0;
 }
 
 .cat-fire-cont {
-  background: darkslategray;
+  background: #6E6E6E;
   margin-top: 0;
   padding: 70px 15px;
 }
@@ -267,12 +290,15 @@ margin-bottom: 0;
 .cat-text {
   width: 680px;
   font-size: 19px;
+  line-height: 28px;
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 70px;
   margin-right: 0;
   padding: 0;
+  position: relative;
+  display: block;
 }
 
 .cat-img {
@@ -284,14 +310,10 @@ margin-bottom: 0;
 }
 
 .cat-img img {
-  width: 250px;
+  width: 300px;
   height: 300px;
-  margin-top: -350px;
-  margin-left: 200px;
-}
-
-.cat-text ul {
-  clear: right;
+  margin-top: -250px;
+  margin-left: 130px;
 }
 
 .cat-btn button {
@@ -301,8 +323,9 @@ margin-bottom: 0;
   border: none;
   font-size: 20px;
   font-weight: 700;
-  background: greenyellow;
+  background: gray;
   color: #fff;
+  margin-top: 20px;
 }
 
 .cat-btn i {
@@ -324,6 +347,10 @@ margin-bottom: 0;
   margin-left: 60px;
   margin-right: 0;
   padding: 40px 0;
+}
+
+.light-grey {
+  background: #F0F0F0;
 }
 
 .one-article {
@@ -354,30 +381,39 @@ margin-bottom: 0;
 
 .art-author {
   font-weight: 600px;
-  margin-top: -15px;
+  margin-top: -10px;
+  margin-bottom: 0;
   color: gray;
+  font-size: 15px;
 }
 
 .art-author a {
   color: gray;
-  font-weight: 600px;
+  font-weight: 700px;
+  font-size: 15px;
 }
 
 .art-para {
-  line-height: 25px;
+  line-height: 28px;
   text-align: justify;
+  font-size: 17px;
+  word-spacing: 1.5px;
+}
+
+.art-para a {
+  color: #006fc6;;
 }
 
 .art-arrow-1 {
-  margin-top: 70px;
+  margin-top: 65px;
 }
 
 .art-arrow-2 {
-  margin-top: 170px;
+  margin-top: 125px;
 }
 
 .art-arrow-3 {
-  margin-top: 110px;
+  margin-top: 120px;
 }
 
 .art-arrow-1 i,
@@ -388,42 +424,61 @@ margin-bottom: 0;
 }
 
 .members-img-cont {
-  margin: 0 50px;
+  margin-top: -50px;
+  margin-bottom: 20px; 
+  margin-left: 50px;
+  margin-right: 70px;
   display: flex;
   max-width: 100%;
   justify-content: space-between;
+  padding: 0;
 }
 
 .members-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .shopify-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: lightgray;
+  background: #DCDCDC;
   border-radius: 10px;
+  border: solid 1px gray;
+  padding-top: 15px;
+  padding-bottom: 30px;
   width: 110%;
 }
 
 .shopify-box img {
-  width: 200px;
-  height: 100px;
+  width: 180px;
+  height: 50px;
 }
 
 .shopify-box p {
   max-width: 300px;
   text-align: center;
+  margin-bottom: 25px;
+  line-height: 28px;
+}
+
+.shop-a-para {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-a-para:hover {
+  color: 	#8A8A8A;
 }
 
 .members-right {
-  width: 70%;
+  width: 68%;
   background: gray;
   border-radius: 10px;
+  padding-bottom: 30px;
 }
 
 .baristaCat-box {
@@ -439,4 +494,45 @@ margin-bottom: 0;
 
 .members-para {
   max-width: 500px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.art2-arrow-1 {
+  margin-top: 140px;
+}
+
+.art2-arrow-2 {
+  margin-top: 80px;
+}
+
+.art2-arrow-3 {
+  margin-top: 130px;
+}
+
+.art2-arrow-1 i,
+.art2-arrow-2 i,
+.art2-arrow-3 i {
+  color: red;
+  font-size: 15px;
+}
+
+.one-article-2 {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 575px;
+}
+
+.one-article-2 a {
+  color: black;
+}
+
+.art3-arrow-1 {
+  margin-top: 240px;
+}
+
+.art3-arrow-1 i {
+  color: red;
+  font-size: 15px;
 }
