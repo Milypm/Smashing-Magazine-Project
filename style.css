@@ -88,6 +88,7 @@ body {
   width: 30px;
   height: 30px;
   margin-left: 7px;
+  filter: grayscale(1); 
 }
 
 .searchArti-form i {
@@ -161,6 +162,10 @@ body {
   color: gray;
 }
 
+.serious-icon {
+  transform: rotate(-20deg);
+}
+
 .serious-icon i {
   width: 50px;
   height: 50px;
@@ -175,6 +180,10 @@ body {
   padding-right:0;
   padding-bottom: -5px;
   padding-left: 5px;
+}
+
+.main {
+  margin: 0;
 }
 
 .gridI-color-1,
@@ -220,6 +229,8 @@ body {
   padding: 0;
   border: solid 5px #fff;
   border-radius: 10px;
+  filter: grayscale(1);
+  transform: rotate(-20deg); 
 }
 
 .grid-item { 
@@ -306,14 +317,20 @@ body {
   max-width: 100px;
   position: relative;
   display: block;
-  margin-left: 50px;
+  margin-top: -200px;
+  filter: grayscale(1); 
+  transform: rotate(-13deg);
 }
 
 .cat-img img {
-  width: 300px;
-  height: 300px;
-  margin-top: -250px;
-  margin-left: 130px;
+  width: 450px;
+  height: 350px;
+  margin-left: 50px;
+}
+
+.cat-text i {
+  float: right;
+  font-size: 30px;
 }
 
 .cat-btn button {
@@ -456,6 +473,7 @@ body {
 .shopify-box img {
   width: 180px;
   height: 50px;
+  filter: grayscale(1); 
 }
 
 .shopify-box p {
@@ -490,6 +508,7 @@ body {
 .baristaCat-box img {
   width: 250px;
   height: 350px;
+  filter: grayscale(1); 
 }
 
 .members-para {
@@ -538,13 +557,13 @@ body {
 }
 
 .upcoming-btn {
-  height:35px;
-  width:220px;
+  height: 35px;
+  width: 220px;
   border-radius: 6px;
 }
 
 .members-right a, .members-right p {
-  color:white;
+  color: white;
 }
 
 .smashing-head {
@@ -555,9 +574,9 @@ body {
   color: gray;
   text-align: center;
   margin-top: 80px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
   border-bottom: 4px solid gray;
-  width:220px;
+  width: 220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -570,11 +589,11 @@ body {
 .ship-p1 {
   font-size: 15px;
   font-weight: 700;
-  color:white;
+  color: white;
 }
 
 .ship-p2 {
-  color:white;
+  color: white;
   font-size: 35px;
 }
 
@@ -583,7 +602,7 @@ body {
 }
 
 .ship-p3 {
-  color:white;
+  color: white;
   font-size: 20px;
 }
 
@@ -602,6 +621,7 @@ body {
 .shipping-now .home-illu {
   margin-top: 50px;
   width:900px;
+  filter: grayscale(1); 
 }
 
 .per-flex {
@@ -619,6 +639,7 @@ body {
   height:200px;
   margin-left: 50px;
   border-radius: 12px;
+  filter: grayscale(1); 
 }
 
 .per-flex p {
@@ -644,6 +665,7 @@ body {
 .grid-flex img {
   height:80px;
   width:80px;
+  filter: grayscale(1); 
 }
 
 .grid-flex p {
@@ -681,18 +703,18 @@ margin-top: -5px;
 
 .design-flex .design-para {
   margin-left: 40px;
-  margin-top: 40px;;
+  margin-top: 40px;
 }
+
 .design-systems p {
   color:white;
 }
 
 .design-systems .head {
-  color:white;
+  color: white;
   font-size: 35px;
   font-weight: 700;
 }
-
 
 .design-btn {
   width:250px;
@@ -708,6 +730,7 @@ margin-top: -5px;
   margin-left: 250px;
   position:relative;
   margin-top: -40px;
+  filter: grayscale(1); 
 }
 
 .grid-framework {
@@ -728,9 +751,10 @@ margin-top: -5px;
   margin-top: 40px;
   border-radius: 12px;
 }
+
 .css-framework {
-padding-bottom: 110px;
-margin-left: -10px;
+  padding-bottom: 110px;
+  margin-left: -10px;
 }
 
 .web-framework {
@@ -751,7 +775,7 @@ margin-left: -10px;
 
 .java-framwork .data,
 .css-framework .data,
-.web-framework .data{
+.web-framework .data {
   line-height: 28px;
   margin-top: 15px;
 }
@@ -770,7 +794,7 @@ margin-left: -10px;
   font-size: 14px;
 }
 
-.explore-btn{
+.explore-btn {
   height:55px;
   width:280px;
   border-radius: 8px;
@@ -781,6 +805,11 @@ margin-left: -10px;
   width:588px;
   height:350px;
   margin-left: -40px;
+  filter: grayscale(1); 
+}
+
+.data span {
+  filter: grayscale(1); 
 }
 
 form.newsletter {
@@ -803,15 +832,16 @@ form.newsletter button {
   float: left;
   width: 25%;
   padding: 10px;
-  background: #2196F3;
+  background: #1f639b;
   color: white;
   font-size: 17px;
-  border: 1px solid grey;
+  border: 1px solid gray;
   border-left: none; 
   cursor: pointer;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   height:57px;
+  filter: grayscale(1); 
 }
 
 ::placeholder {
@@ -831,4 +861,102 @@ form.newsletter button {
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
+}
+
+.footer-main {
+  background: #696969;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+.footer-cont {
+  width: 90%;
+  margin: 10px 10px;
+  text-align: center;
+  color: #fff;
+  font-family: Elena, serif;
+}
+
+.footer-cont h4 {
+  margin-bottom: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.lots-ofLinks {
+  line-height: 40px;
+}
+
+.lots-ofLinks li {
+  max-width: 80%;
+  display: inline-block;
+  list-style: none;
+  font-size: 19px;
+}
+
+.lots-ofLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bulletP img {
+  filter: grayscale(1); 
+}
+
+.foot-para {
+  width: 460px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+}
+
+.foot-para-italic {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.foot-para a {
+  color: #fff;
+}
+
+.birdy {
+  float: left;
+}
+
+.last-kitty {
+  float: right;
+}
+
+.bird-img {
+  width: 131px;
+  height: 150px;
+  position: relative;
+  margin-top: -50px;
+  filter: grayscale(1); 
+}
+
+.lastCat-img {
+  width: 228px;
+  height: 150px;
+  position: relative;
+  margin-top: -50px;
+  filter: grayscale(1); 
+}
+
+.last-links {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px;
+}
+
+.last-links li {
+  list-style: none;
+  display: inline-block;
+  line-height: 28px;
 }
