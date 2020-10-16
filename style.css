@@ -119,7 +119,7 @@ body {
   display: flex;
   background: #686868;
   border-radius: 10px;
-  padding-top: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
   margin-left: 5px;
   margin-right: 40px;
   font-size: 18px;
