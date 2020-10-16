@@ -1,6 +1,6 @@
 # Smashing-Magazine-Project
 
-![screenshot](images/screenshot.PNG)
+![screenshot](images/screenshots.PNG)
 
 ### **Description:** 
 
