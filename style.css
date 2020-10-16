@@ -1,7 +1,8 @@
 body {
-  max-width: 1440px;
+  width: 100%;
   font-family: "Calibri Bold", AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   box-sizing: border-box;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -437,7 +438,6 @@ body {
 .art-arrow-1 i,
 .art-arrow-2 i,
 .art-arrow-3 i {
-  color: red;
   font-size: 15px;
   filter: grayscale(1);
 }
@@ -574,7 +574,6 @@ body {
 .art2-arrow-1 i,
 .art2-arrow-2 i,
 .art2-arrow-3 i {
-  color: red;
   font-size: 15px;
   filter: grayscale(1);
 }
@@ -595,7 +594,6 @@ body {
 }
 
 .art3-arrow-1 i {
-  color: red;
   font-size: 15px;
   filter: grayscale(1);
 }
