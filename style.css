@@ -994,14 +994,18 @@ form.newsletter input[type=text] {
 }
 
 .lots-ofLinks li {
-  max-width: 90%;
   display: inline-block;
   list-style: none;
-  font-size: 19px;
+  font-size: 21px;
 }
 
 .lots-ofLinks a:hover {
   color: #3d3d3d;
+}
+
+.footer-line1-links {
+  width: 1000px;
+  margin-left: 50px;
 }
 
 .foot-para {
