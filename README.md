@@ -6,7 +6,7 @@
 
 Project based on Smashing Magazine page, it shows a Search article button on the top-right corner, a main section with  data and related information and a footer section.
  
- **Header (Sign-in section):**
+ **Header (Navbar section):**
  
  	- A Navbar with multiple options based on user's preference.
  	- A button for Search Article.
