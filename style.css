@@ -1,10 +1,15 @@
 body {
-  width: 100%;
   font-family: "Calibri Bold", AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
   box-sizing: border-box;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+}
+
+.header,
+.main,
+.footer-main {
+  max-width: 1440px;
 }
 
 .nav-container {
@@ -128,7 +133,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  margin-right: 60px;
+  margin-right: 90px;
   font-size: 35px;
   line-height: 45px;
   width: 500px;
@@ -211,7 +216,7 @@ body {
   background-color: white;
   width: 35%;
   height: 45%;
-  margin-left: 150px;
+  margin-left: 130px;
   margin-top: -46px;
 }
 
