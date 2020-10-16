@@ -63,7 +63,7 @@ body {
 
 .art-author a {
   color: gray;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 15px;
 }
 
@@ -71,7 +71,7 @@ body {
   color: black;
 }
 
-.members-right a, 
+.members-right a,
 .members-right p {
   color: white;
 }
@@ -82,7 +82,7 @@ body {
 
 .per-flex a,
 .data a {
-  color:#006fc6;
+  color: #006fc6;
   filter: grayscale(1);
 }
 
@@ -97,6 +97,11 @@ body {
 
 .last-links a {
   color: #fff;
+}
+
+.lots-ofLinks a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-container a:hover {
@@ -402,7 +407,7 @@ form.newsletter button {
   color: white;
   font-size: 17px;
   border: 1px solid gray;
-  border-left: none; 
+  border-left: none;
   cursor: pointer;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -748,14 +753,14 @@ form.newsletter button {
 .grid-flex img {
   height: 80px;
   width: 80px;
-  filter: grayscale(1); 
+  filter: grayscale(1);
   border: solid 5px gray;
   border-radius: 10px;
   transform: rotate(-13deg);
 }
 
 .grid-flex p {
-  color:gray;
+  color: gray;
 }
 
 .grid-flex .split {
@@ -809,6 +814,17 @@ form.newsletter button {
   margin-top: 20px;
   margin-bottom: 40px;
   border: none;
+}
+
+.newsletter-framework img {
+  width: 588px;
+  height: 350px;
+  margin-left: -40px;
+  filter: grayscale(1);
+}
+
+.bulletP img {
+  filter: grayscale(1);
 }
 
 .design-flex .design-img img {
@@ -905,13 +921,6 @@ form.newsletter button {
   cursor: pointer;
 }
 
-.newsletter-framework img {
-  width: 588px;
-  height: 350px;
-  margin-left: -40px;
-  filter: grayscale(1);
-}
-
 .data span {
   filter: grayscale(1);
 }
@@ -935,7 +944,7 @@ form.newsletter input[type=text] {
 .newsletter-bottom-para {
   display: block;
   background-color: white;
-  color:gray;
+  color: gray;
   text-align: center;
   padding-top: 14px;
   width: 350px;
@@ -991,17 +1000,8 @@ form.newsletter input[type=text] {
   font-size: 19px;
 }
 
-.lots-ofLinks a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .lots-ofLinks a:hover {
   color: #3d3d3d;
-}
-
-.bulletP img {
-  filter: grayscale(1);
 }
 
 .foot-para {
@@ -1057,4 +1057,3 @@ form.newsletter input[type=text] {
   display: inline-block;
   line-height: 30px;
 }
-
