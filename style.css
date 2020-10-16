@@ -17,10 +17,7 @@ body {
   display: flex;
   align-items: flex-start;
   text-transform: capitalize;
-  padding-top: 5px;
-  padding-bottom: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 5px 15px 25px 15px;
   margin: 0;
   background: #808080;
 }
@@ -41,7 +38,7 @@ body {
   display: block;
   list-style: none;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
   color: #fff;
   cursor: pointer;
 }
@@ -122,14 +119,11 @@ body {
   display: flex;
   background: #686868;
   border-radius: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 5px 10px 5px 10px;
   margin-left: 5px;
   margin-right: 40px;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 600;
   text-transform: capitalize;
   border: solid 1px #525252;
 }
@@ -139,7 +133,7 @@ body {
 }
 
 .more-w {
-  margin-top: 5px;
+  margin-top: 7px;
   display: inline-block;
 }
 
@@ -226,19 +220,14 @@ body {
 }
 
 .serious-icon i {
-  width: 50px;
-  height: 50px;
   border: transparent;
-  font-size: 45px;
-  margin-top: -3px;
+  font-size: 40px;
+  margin-top: 0;
   margin-right: 15px;
   color: gray;
   background: white;
   border-radius: 10px;
-  padding-top: 5px;
-  padding-right: 0;
-  padding-bottom: -5px;
-  padding-left: 5px;
+  padding: 5px;
 }
 
 .main {
@@ -1010,10 +999,7 @@ form.newsletter input[type=text] {
 
 .foot-para {
   width: 450px;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 60px auto 30px auto;
   line-height: 28px;
 }
 
@@ -1049,10 +1035,7 @@ form.newsletter input[type=text] {
 }
 
 .last-links {
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0 auto;
 }
 
 .last-links li {
